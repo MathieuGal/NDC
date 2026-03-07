@@ -37,6 +37,20 @@ Les constantes et les touches modifiable sons dans le fichier config.py
 ## 📦 Installation
 
 1. Assurez-vous d'avoir Python 3.8 ou supérieur installé sur votre machine.
-2. Installez **Pyxel** avec la commande suivante :
+2. Clonez ce dépôt sur votre machine locale et placez-vous dans le dossier :
+   ```bash
+   git clone <url-du-repo>
+   cd NDC
+   ```
+3. Installez **Pyxel** avec la commande suivante :
    ```bash
    pip install pyxel
+   ```
+
+## 🚀 Lancement du jeu
+
+Une fois l'installation terminée, vous pouvez lancer le jeu en exécutant le fichier principal `main.py` situé dans le dossier `src`. Depuis la racine du projet, lancez :
+
+```bash
+python src/main.py
+```
